@@ -13,6 +13,9 @@ class Node {
 }
  
 // Class implements Comparator to compare Node data
+// Time: O(N * K * log K)
+// Space: O(K)
+ 
 class NodeComparator implements Comparator<Node> {
  
     public int compare(Node k1, Node k2)
